@@ -5,20 +5,20 @@
         "description": "Exports mailboxes for backup purposes",
         "categories": ["Mailbox exfiltration"],
         "appid": "ff8d92dc-3d82-41d6-bcbd-b9174d163620",
-        "Permissions": [],
+        "Permissions": ["offline_access", "profile", "User.Read", "openid", "EWS.AccessAsUser.All", "EWS.AccessAsUser.All"],
         "References": ["https://cybercorner.tech/malicious-azure-application-perfectdata-software-and-office365-business-email-compromise/", "https://darktrace.com/blog/how-abuse-of-perfectdata-software-may-create-a-perfect-storm-an-emerging-trend-in-account-takeovers", "https://www.secureworks.com/blog/qr-phishing-leads-to-microsoft-365-account-compromise"]
       },
       {
         "name": "Newsletter Software Supermailer",
-        "description": "",
+        "description": "Provides you with software to create and send newsletters and personalized mass emails.",
         "categories": ["phishing"],
         "appid": "a245e8c0-b53c-4b67-9b45-751d1dff8e6b",
-        "Permissions": [],
+        "Permissions": ["Mail.Send", "Mail.Read", "Contacts.Read", "offline_access"],
         "References": ["https://www.huntress.com/blog/legitimate-apps-as-traitorware-for-persistent-microsoft-365-compromise"]
       },
       {
         "name": "rclone",
-        "description": "",
+        "description": "Rclone is a command line program to manage files on cloud storage.",
         "categories": ["Data exfiltration", "Sharepoint/OneDrive exfiltration"],
         "appid": "4761b959-9780-4c2d-87a3-512b4638f767",
         "Permissions": [],
@@ -26,7 +26,7 @@
       },
       {
         "name": "eM Client",
-        "description": "eM Client is a desktop email client with full Microsoft Office 365 synchronization.",
+        "description": "eM Client is a Windows-based email client for sending and receiving emails, and managing calendars, contacts, and tasks.",
         "categories": ["Mailbox exfiltration"],
         "appid": "e9a7fea1-1cc0-4cd9-a31b-9137ca5deedd",
         "Permissions": [],
@@ -42,7 +42,7 @@
       },
       {
         "name": "Zoominfo Login",
-        "description": "",
+        "description": "ZoomInfo is a platform that provides accurate and actionable B2B contact and company information to accelerate the growth of sales and marketing teams.",
         "categories": ["Address book exfiltration"],
         "appid": "858d7e42-35f0-44b7-9033-df309239a47f",
         "Permissions": [],
@@ -58,11 +58,11 @@
       },
       {
         "name": "Fastmail",
-        "description": "",
+        "description": "Fastmail is a web-based client that offers integration with 3rd party desktop clients and has the ability to import mail from most other email services and can export messages as well.",
         "categories": ["Mailbox exfiltration"],
         "appid": "77468577-4f6e-40e7-b745-11d3d0c28095",
         "Permissions": [],
         "References": ["https://x.com/mwaski88/status/1775904383382802502"]
-      }
+      }       
     ]
   }
